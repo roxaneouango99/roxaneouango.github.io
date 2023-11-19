@@ -1,13 +1,18 @@
 
- 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  /* background-color: #c7b3b3; */
 } 
- html{
+
+
+main {
+    background: #c7b3b3;
+  }
+html{
     height: 100%;
 }
 body{
@@ -140,10 +145,146 @@ input[type="checkbox"]{
     font-weight: 600;
     color: #202020;
   }
-  
- footer{
+
+  /* BODY TYPE */
+  /* .hero .row {
+    display: flex;
+    align-items: center; */
+    /* min-height: 100vh; */
+    /* height: 100%;
+    width: 100%;
+    padding: 0 60px;
+    gap: 30px;
+    justify-content: space-between;
+  } */
+
+
+  /* .wrapper h1{
+    width: 1200px;
+    margin-top: 9%;
+    margin-bottom: 4%;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+    letter-spacing: 1.5px;
+} */
+
+.wrapper h1{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    /* background: #c7b3b3; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+.wrapper h3{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    /* background: #c7b3b3; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+.wrapper h2{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    /* background: #c7b3b3; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+  .img {
+    width: 70%;
+    z-index: 10;
+    position: relative;
+    height: auto;
+    padding: 0 50px 0 100px;
+  }
+  .img_p {
+    width: 30%;
+    /* z-index: 10; */
+    /* height: auto; */
+    position: relative;
+    padding: 0 50px 0 90px;
+  }
+
+  .img_n {
+    width: 700px;
+    /* z-index: 10; */
+    height: 500px;
+    position: relative;
+    padding: 0 50px 0 90px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 50px 0 90px;
+  }
+
+.wrapper a:link {color:rgb(100, 98, 103);}    /* unvisited link is black*/
+.wrapper a:visited {color:#45454b;} /* visited link is black (reverse the color back to black)*/
+.wrapper a:hover {color:#271313;}   /* mouse over link (blue when mouse over)*/
+.wrappera:active {color:rgb(100, 98, 103);}  /* selected link (blue in the split second which you loading the page.)*/
+
+.imgq{
+    max-width: 60%;
+    float: left;
+    padding: 0 100px 0 90px;
+}
+
+.imgo{
+    max-width: 80%;
+    float: left;
+    padding: 0 100px 0 90px;
+}
+
+
+.cont p{
+    font-size: 16px;
+}
+.wrap{
+    margin: 0px auto;
+    /* position: center; */
+    width: 70%;
+}
+
+.cont p{
+    font-size: 16px;
+    padding: 0 0 0 60px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
     margin-top: auto;
-    background-color: white;
+    background-color:#c7b3b3;
     margin-top: auto;
  }
  .footerContainer{
@@ -200,186 +341,3 @@ input[type="checkbox"]{
 .footerNav ul li a:hover{
     opacity: 1;
 } 
-
-
-main {
-    background: #c7b3b3;
-  }
-  .container {
-    max-width: 1300px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 60px;
-  }
-  .nav_logo {
-    padding: 10px 0;
-  }
-  .menu_items {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-  }
-  a {
-    color: black;
-    text-decoration: none;
-
-}
-
-  
-  /* Hero */
-  .hero {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    /* background: url(bg-dot.png), url(bg-dot.png), url(bg-round.png), url(bg-tree.png); */
-    background-position: 10px 10px, bottom 215px right 10px, left 55% top -1%, left 45% bottom -1px;
-    background-repeat: no-repeat;
-  }
-  .curveImg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    pointer-events: none;
-  }
-  .hero .row {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    height: 100%;
-    width: 100%;
-    padding: 0 60px;
-    gap: 30px;
-    justify-content: space-between;
-  }
-  .hero .row h2,
-  .hero .row p {
-    color: black;
-  }
-  .hero .row h2 {
-    font-size: 36px;
-    margin-bottom: 16px;
-  }
-  .hero .column {
-    width: 70%;
-  }
-  .hero .colu img{
-    width: 120%;
-    height: 50%;
-  }
-
-  .buttons {
-    display: flex;
-    margin-top: 25px;
-    gap: 10px;
-  }
-  .btn {
-    padding: 14px 26px;
-    background: #fff;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .btn:last-child {
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-  }
-  .btn:last-child:hover {
-    background-color: #fff;
-    color: #333;
-  }
-  .hero_img {
-    width: 100%;
-    z-index: 10;
-    position: relative;
-  }
-  #menu_toggle {
-    display: none;
-  }
-  /* Reponsive */
-  @media (width < 860px) {
-    #menu_toggle {
-      display: block;
-    }
-    .nav {
-      padding: 0 20px;
-      background-color: #fff;
-    }
-    .menu_items {
-      position: fixed;
-      top: 0;
-      width: 260px;
-      background-color: #fff;
-      height: 100%;
-      left: -100%;
-      padding: 50px 30px 30px;
-      flex-direction: column;
-      transition: all 0.5s ease;
-    }
-    .showMenu .menu_items {
-      left: 0;
-    }
-    a {
-      color: #333;
-    }
-    #menu_toggle {
-      width: 20px;
-      cursor: pointer;
-    }
-    .menu_items #menu_toggle {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-    .hero {
-      padding-top: 130px;
-    }
-    .hero .row {
-      flex-direction: column;
-      padding: 0 20px;
-      justify-content: center;
-    }
-    .hero .row .column {
-      width: 100%;
-    }
-  }
-
-  /* div {
-    height:200px;
-    width:350px;
-    } */
-
-    p {      
-    text-align: justify;
-    }
-
-    #normal p {    
-        text-align: left;
-    }
-  @media (width < 600px) {
-    .hero {
-      padding-top: 80px;
-    }
-    .hero .row h2 {
-      font-size: 26px;
-    }
-    .buttons {
-      justify-content: center;
-    }
-    .btn {
-      padding: 10px 16px;
-    }
-  }

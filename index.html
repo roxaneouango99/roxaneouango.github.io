@@ -1,55 +1,150 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intelligent Physical System Final Project</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="main">
-        <div class="navigation-bar">
-            <div class="icon">
-                <h2 class="logo">ECE 3400</h2>
-            </div>
+    <script src="../custom-scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main>
+    <!-- <header>
+    <nav>
+      <div class="logo">Roxane Ouango</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">ABOUT</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    </header> -->
 
-            <div >
-                <ul>
-                
-                    <li><a href="index.html">ABOUT</a></li>
-                    <li><a href="research.html">RESEARCH</a></li>
-                    <li><a href="experience.html">EXPERIENCE</a></li>
-                    <li><a href="project.html">PROJECTS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
+    <!-- <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="#">Roxane Ouango</a></h2> -->
+          <!-- <input type="checkbox" id="click">
+          <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+          </label> -->
+          <!-- <ul class="menu_items">
+            <img src="times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="experience.html">EXPERIENCE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <img src="bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header> -->
+
+      <header>
+        <nav>
+          <div class="logo">Roxane Ouango</div>
+          <input type="checkbox" id="click">
+          <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </label> 
+          <ul>
+            <li><a href="index.html">ABOUT</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="project.html">PROJECTS</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <img src="bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+        </header> 
+
+
+
+
+
+
+
+
+
+    <section class="hero">
+        <!-- <div class="container">
+            <img src="dp.jpg" alt="">
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur tincidunt finibus diam. Nulla ornare mollis risus 
+                sed mattis. Nunc at mauris ut velit sollicitudin dignissim ac 
+                eget turpis. Duis quis laoreet tellus, eu condimentum mauris. 
+                Quisque sed imperdiet lorem. Fusce euismod risus eu tortor 
+                dapibus vehicula. Integer rhoncus lorem nec lobortis sagittis. 
+                Aenean elementum et lorem in suscipit. Suspendisse at diam eget 
+                quam laoreet viverra.
             </div>
-        </div>
-        <div class="content">
-            <!-- <h1>Maze-Mapping Robot Project</h1>
-            <p class="paragraph">This page is a documentation for my Intelligent Physical System (ECE 3400)<br>
-                final project. The goal of this project is to build a maze-mapping robot from scratch.<br>
-                It has been divided into four lab components which will be continuously updated.
+        </div> -->
+
+         <!-- Hero Start -->
+      <section class="hero">
+        <div class="row container">
+          <div class="column">
+            <h2>Hi! <br/>I'm Roxane </h2>
+            <p id="justify">
+                I am an Electrical and Computer Engineering major at Cornell University. I aim to become an Onco-Dermatologist. 
+                I am interested in improving cancer patients' quality of life by preventing and treating dermatological issues 
+                arising from cancer treatments' side effects. <br/>
+                <br/>
+                My current project TuDermis aims to bring awareness to skin-related 
+                issues and connect low-income communities with local dermatologists. I aim for TuDermis to become an integral tool 
+                in both medical education and research. <br/>
+                <br/>
+                In my free time, I enjoy reading and trying new recipes when I am not thinking 
+                of engineering the human body. 
             </p>
-            <h1>Robot Prototype</h1>
-            <p>
-                <div style="text-align: center;">
-                    <img src="final_robot_white.jpg" id="Fig 1:Final Robot"
-                    width="400" height="400">
-                    </div>
-            </p> -->
-            
-            <div class="cf">
-                <img src="dp.jpg" width="100px" />
-                <div class="text">
-                    <p class="paragraph">This page is a documentation for my Intelligent Physical System (ECE 3400)<br>
-                        final project. The goal of this project is to build a maze-mapping robot from scratch.<br>
-                        It has been divided into four lab components which will be continuously updated.
-                    </p>
-                </div>
+            <div class="buttons">
+              <button class="btn">Read More</button>
+              <!-- <button class="btn">Contact Us</button> -->
             </div>
-
+          </div>
+          <div class="column">
+            <img src="transparent.png" alt="heroImg" class="hero_img"/>
+          </div>
         </div>
-    </div>      
-</body>
+        <img src="bg-bottom-hero.png" alt="" class="curveImg" />
+      </section>
+      <!-- Hero End-->
+    </section>
 
+    <footer>
+          </div>
+          <div class="footerContainer">
+              <div class="socialIcons">
+                  <!-- <a href="https://www.linkedin.com/in/roxaneouango/"><i class="fa-brands fa-linkedin"></i></a> -->
+                  <!-- <a href=""><i class="fa-brands fa-youtube"></i></a> -->
+                  <!-- <a href=""><i class="fa-solid fa-envelope"></i></a> -->
+              </div>
+              <!-- <div class="footerNav">
+                  <ul>
+                      <li><a href="Contact Me"></a></li>
+                  </ul>
+              </div> -->
+          </div>
+    </footer>
+</main>
+
+<script>
+    const header = document.querySelector("header");
+    const menuToggler = document.querySelectorAll("#menu_toggle");
+    menuToggler.forEach(toggler => {
+      toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+    });
+  </script>
+  
+
+  </body>
 </html>
